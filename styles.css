@@ -1,0 +1,262 @@
+/* Add CSS here */
+.body-container {
+    font-family: sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1525280244725-771f2a31841d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHxicmVha2Zhc3R8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60');
+    object-fit: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(974, 45, 34, 0.86);
+    height: 450px;
+    max-width: 440px;
+
+}
+
+.closet {
+    background-color: #f6f6f6;
+    height: 55px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: .7s;
+    cursor: pointer;
+}
+
+.closet:hover {
+    background-color: orange;
+    color: white;
+    transform: scale(0.98);
+}
+
+.closet-1:hover {
+    background-color: orange;
+    color: white;
+    transform: scale(0.98);
+}
+
+.closet-1 {
+    margin-top: 3px;
+    background-color: #f6f6f6;
+    height: 55px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: .7s;
+    cursor: pointer;
+}
+
+.closet h1 {
+    color: #e85235;
+    font-size: 13px;
+}
+
+.closet h2 {
+    color: #b4a198;
+    font-size: 10px;
+}
+
+.closet-1 h1 {
+    color: #e85235;
+    font-size: 13px;
+}
+
+.closet-1 h2 {
+    color: #b4a198;
+    font-size: 10px;
+}
+
+.icon {
+    background-color: #d9cfcd;
+    border-radius: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+}
+
+.content {
+    height: 230px;
+    width: 100%;
+    display: flex;
+}
+
+.card-1 {
+    height: 230px;
+    width: 50%;
+}
+
+.card-1 h3 {
+    font-size: 12px;
+}
+
+.card-2 {
+    height: 230px;
+    width: 50%;
+}
+
+.card-2 h3 {
+    font-size: 12px;
+}
+
+.card-2 {
+    height: 230px;
+    width: 50%;
+}
+
+.auction {
+    height: 57px;
+    width: 95%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-bottom-width: 2px;
+    border-color: #e54529;
+}
+
+.auction h3 {
+    color: white;
+}
+
+span {
+    color: #c9270a;
+    margin-left: 5px;
+}
+
+
+
+
+@media screen and (max-width:600px) {
+    .body-container {
+        font-family: sans-serif;
+        background-image: url('https://images.unsplash.com/photo-1589992622081-23b0f51f6a1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzR8fGJyZWFrZmFzdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60');
+        object-fit: cover;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .container {
+        background-color: rgba(974, 45, 34, 0.86);
+        height: 450px;
+        width: 96%;
+    }
+
+    .closet {
+        background-color: #f6f6f6;
+        height: 55px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        transition: .7s;
+        cursor: pointer;
+    }
+
+    .closet:hover {
+        background-color: orange;
+        color: white;
+        transform: scale(0.98);
+    }
+
+    .closet-1:hover {
+        background-color: orange;
+        color: white;
+        transform: scale(0.98);
+    }
+
+    .closet-1 {
+        margin-top: 3px;
+        background-color: #f6f6f6;
+        height: 55px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        transition: .7s;
+        cursor: pointer;
+    }
+
+    .closet h1 {
+        color: #e85235;
+        font-size: 13px;
+    }
+
+    .closet h2 {
+        color: #b4a198;
+        font-size: 10px;
+    }
+
+    .closet-1 h1 {
+        color: #e85235;
+        font-size: 13px;
+    }
+
+    .closet-1 h2 {
+        color: #b4a198;
+        font-size: 10px;
+    }
+
+    .icon {
+        background-color: #d9cfcd;
+        border-radius: 3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20px;
+        width: 20px;
+    }
+
+    .content {
+        height: 230px;
+        width: 100%;
+        display: flex;
+    }
+
+    .card-1 {
+        height: 230px;
+        width: 50%;
+    }
+
+    .card-1 h3 {
+        font-size: 10px;
+    }
+
+    .card-2 {
+        height: 230px;
+        width: 50%;
+    }
+
+    .card-2 h3 {
+        font-size: 10px;
+    }
+
+    .card-2 {
+        height: 230px;
+        width: 50%;
+    }
+
+    .auction {
+        height: 57px;
+        width: 95%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-bottom-width: 2px;
+        border-color: #e54529;
+    }
+
+    .auction h3 {
+        color: white;
+    }
+
+    span {
+        color: #c9270a;
+        margin-left: 5px;
+    }
+}
